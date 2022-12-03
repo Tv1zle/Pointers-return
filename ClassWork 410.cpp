@@ -6,13 +6,12 @@ int main()
 {
 	//Task 1
 
-    /*int mas1[10] = {10, 23, 2, 5, 123, 4, 54, 21, 11, 11};
+    int mas1[10] = {10, 23, 2, 5, 123, 4, 54, 21, 11, 11};
 	int mas2[10];
     int* ptr1 = &mas1[9];
 	int* ptr2 = mas2;
 
 
-	//ptr1+=10;
 	for (int i = 0; i < 10; i++)
 	{
 		*(ptr2 + i) = *(ptr1 - i);
@@ -25,13 +24,13 @@ int main()
 	for (int i = 0; i < 10; i++)
 	{
 		std::cout << (*ptr1++) << " - " << (*ptr2++) << "\n";
-	}*/
+	}
 
 
 
 	// Task 2
 
-	/*int mas[10];
+	int mas[10];
 	int* ptr = mas;
 	int min, max = 0;
 
@@ -54,7 +53,6 @@ int main()
 
 
 	std::cout << "Max = " << max << "\nMin = " << min;
-	*/
 
 
 
